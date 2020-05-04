@@ -1,0 +1,113 @@
+body{
+    text-align: center;
+    background-color: #e6fff2;
+}
+
+nav{
+	background-color: rgb(179, 179, 179, 0.4);
+	margin: 0px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: dashed;
+    border-radius: 20px;
+}
+
+nav a:hover{
+	color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+h1 {
+    font-size: 20px;
+    color: white;
+    background-image: url(imgs/myphoto3-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 150px;
+    padding: 50px;
+    margin: auto;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+p {
+    color: #134467;
+    font-size: 15px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Faustina', serif;
+}
+
+ul {
+    font-size: 15px;
+    color: #134467;
+    text-align: left;
+    font-family: 'Faustina', serif;
+}
+
+ul a:hover{
+    color:black;
+}
+
+a {
+    color: #134467;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Faustina', serif;
+}
+
+.navbar-large{
+    display: none;
+}
+
+.navbar-medium{
+    display: none;
+}
+
+.navbar-small{
+    display: flex;
+    flex-direction: column;
+    order: 3;
+}
+
+.imgs {
+    display: flex;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    justify-content: center;
+}
+
+.img1 {
+    border-bottom-left-radius: 20px;
+}
+
+.img3 {
+    border-bottom-right-radius: 20px;
+}
+
+.card {
+    border: dashed;
+    border-radius: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(179, 179, 179, 0.4);
+}  
+
+#flex{
+    display: flex;
+    flex-direction: column;
+}
