@@ -1,0 +1,119 @@
+body { 
+    background-color: #f2f2d9;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(179, 179, 179, 0.4);
+    margin: 0px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: dashed;
+    border-radius: 20px;
+    background-color: rgb(179, 179, 179, 0.4);
+}
+
+nav a:hover{
+	color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+a {
+    color: #134467;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Faustina', serif;
+}
+
+div{
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-image: url("imgs/petphotography6.jpg"), url("imgs/petphotography5.jpg"), url("imgs/petphotography4.jpg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left center, center center, right center;
+    background-size: 110px 110px;
+    padding: 30px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+p {
+    color: #134467;
+    font-size: 15px;
+    font-family: 'Faustina', serif;
+}
+
+ul{
+    color: #134467;
+    font-size: 15px;
+    text-align: left;
+    font-family: 'Faustina', serif;
+}
+
+img {
+    width: 190px;
+    height: 195px;
+}
+
+.navbar-large{
+    display: none;
+}
+
+.navbar-medium{
+    display: none;
+}
+
+.navbar-small{
+    display: flex;
+    flex-direction: column;
+    order: 3;
+}
+
+.card{
+	background-color: rgb(179, 179, 179, 0.4);
+    margin: auto;
+    border: dashed;
+    border-radius: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.people{
+	background-color: rgb(179, 179, 179, 0.4);
+    margin: auto;
+    border: dashed;
+    border-radius: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#flex{
+    display: flex;
+    flex-direction: column;
+}

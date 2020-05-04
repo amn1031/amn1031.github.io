@@ -1,0 +1,112 @@
+body { 
+    background-color: #e2deed;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(179, 179, 179, 0.4);
+    margin: 0px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: dashed;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+a {
+    color: #134467;
+    font-size: 23px;
+    text-decoration: none;
+    font-family: 'Faustina', serif;
+}
+
+div{
+    font-size: 23px;
+}
+
+h1 {
+    font-size: 45px;
+    color: white;
+    text-align: center;
+    background-image: url("imgs/prismphotography1.jpg"), url("imgs/prismphotography2.jpg"), url("imgs/prismphotography3.jpg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left center, center center, right center;
+    background-size: 35% 400px;
+    height: 100px;
+    padding: 70px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+p {
+    color: #134467;
+    font-size: 23px;
+    font-family: 'Faustina', serif;
+}
+
+ul{
+    color: #134467;
+    font-size: 23px;
+    text-align: left;
+    font-family: 'Faustina', serif;
+}
+
+img {
+    width: 235px;
+    height: 195px;
+}
+
+.navbar-small{
+    display: none;
+}
+.navbar-medium{
+    display: none;
+}
+
+.card{
+    border: dashed;
+    border-radius: 20px;
+    width: 50%;
+    margin-right: 18px;
+    margin-left: 18px;
+    margin-top: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(179, 179, 179, 0.4);
+}
+
+.people{
+    background-color: rgb(179, 179, 179, 0.4);
+    margin: auto;
+    border: dashed;
+    border-radius: 20px;
+    margin-right: 18px;
+    margin-left: 18px;
+    margin-top: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#flex{
+    display: flex;
+    margin: auto;
+    justify-content: center; 
+}

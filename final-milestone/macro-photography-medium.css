@@ -1,0 +1,111 @@
+body { 
+    background-color: #ecdfec;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(179, 179, 179, 0.4);
+    margin: 0px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: dashed;
+    border-radius: 20px;
+}
+
+nav a:hover{
+    color: black;
+}
+
+a:hover{
+	color: black;
+}
+
+a {
+    color: #134467;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Faustina', serif;
+}
+
+div{
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 43px;
+    color: white;
+    text-align: center;
+    background-image: url("imgs/macrophotography11.jpg"), url("imgs/macrophotography6.jpg"), url("imgs/macrophotography9.jpg");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: left center, center center, right center;
+    background-size: 250px 200px;
+    padding: 70px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+p {
+    color: #134467;
+    font-size: 20px;
+    font-family: 'Faustina', serif;
+}
+
+ul{
+    color: #134467;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Faustina', serif;
+}
+
+img {
+    width: 235px;
+    height: 195px;
+}
+
+.navbar-small{
+    display: none;
+}
+
+.navbar-large{
+    display: none;
+}
+
+.card{
+    border: dashed;
+    border-radius: 20px;
+    width: 50%;
+    margin-right: 18px;
+    margin-left: 18px;
+    margin-top: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(179, 179, 179, 0.4);
+}
+
+.people{
+    background-color: rgb(179, 179, 179, 0.4);
+    margin: auto;
+    border: dashed;
+    border-radius: 20px;
+    margin-right: 18px;
+    margin-left: 18px;
+    margin-top: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#flex{
+    display: flex;
+    margin: auto;
+    justify-content: center; 
+}
